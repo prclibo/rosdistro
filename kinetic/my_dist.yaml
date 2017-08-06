@@ -13,5 +13,5 @@ repositories:
       version: master
     status: maintained
 type: distribution
-version: 3
+version: 2
 tags: [my]

@@ -22,4 +22,4 @@ distributions:
     #     distribution: [lunar/distribution.yaml]
     #     distribution_cache: http://repositories.ros.org/rosdistro_cache/lunar-cache.yaml.gz
 type: index
-version: 2
+version: 3

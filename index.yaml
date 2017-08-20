@@ -15,7 +15,7 @@ distributions:
     #   jade:
     #     distribution: [jade/distribution.yaml]
     #     distribution_cache: http://repositories.ros.org/rosdistro_cache/jade-cache.yaml.gz
-  trunk-kinetic:
+  kinetic:
     distribution: [trunk-kinetic/distribution.yaml]
     distribution_cache: http://162.243.151.49/rosdistro_cache/trunk-kinetic-cache.yaml.gz
     #   lunar:

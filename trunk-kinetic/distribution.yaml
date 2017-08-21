@@ -15,7 +15,7 @@ repositories:
   ingredient:
     source:
       type: git
-      url: https://github.com/trunktech/ingredient.git
+      url: git@github.com:trunktech/ingredient.git
       version: master
     status: maintained
 #   catkin:

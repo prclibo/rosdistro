@@ -19,6 +19,16 @@ repositories:
       version: master
     status: maintained
   velodyne:
+    release:
+      packages:
+      - velodyne
+      - velodyne_driver
+      - velodyne_pointcloud
+      - velodyne_msgs
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/prclibo/velodyne-release.git
+      version: 101.2.0-0
     source:
       type: git
       url: https://github.com/prclibo/velodyne.git

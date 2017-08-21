@@ -6,16 +6,22 @@ release_platforms:
   ubuntu:
   - xenial
 repositories:
-  velodyne:
-    source:
-      type: git
-      url: https://github.com/prclibo/velodyne.git
-      version: master
-    status: maintained
   ingredient:
     source:
       type: git
       url: git@github.com:trunktech/ingredient.git
+      version: master
+    status: maintained
+  oxts:
+    source:
+      type: git
+      url: git@github.com:trunktech/oxts.git
+      version: master
+    status: maintained
+  velodyne:
+    source:
+      type: git
+      url: https://github.com/prclibo/velodyne.git
       version: master
     status: maintained
 #   catkin:

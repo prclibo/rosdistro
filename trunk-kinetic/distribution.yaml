@@ -17,6 +17,15 @@ repositories:
       type: git
       url: git@github.com:trunktech/oxts.git
       version: master
+    release:
+      packages:
+      - oxts
+      - oxts_driver
+      - oxts_msgs
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@github.com:trunktech/oxts-release.git
+      version: 0.0.1-0
     status: maintained
   velodyne:
     release:
@@ -33,23 +42,7 @@ repositories:
       test_pull_requests: true
       type: git
       url: https://github.com/prclibo/velodyne.git
-      version: master
-    status: maintained
-#   catkin:
-#     doc:
-#       type: git
-#       url: https://github.com/ros/catkin.git
-#       version: kinetic-devel
-#     release:
-#       tags:
-#         release: release/kinetic/{package}/{version}
-#       url: https://github.com/ros-gbp/catkin-release.git
-#       version: 0.7.6-0
-#     source:
-#       test_pull_requests: true
-#       type: git
-#       url: https://github.com/ros/catkin.git
-#       version: kinetic-devel
+      version: trunk
     status: maintained
 type: distribution
 version: 2

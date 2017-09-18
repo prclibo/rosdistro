@@ -6,6 +6,15 @@ release_platforms:
   ubuntu:
   - xenial
 repositories:
+  chassis_can:
+    release:
+      packages:
+      - chassis_can
+      - chassis_can_eu260
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/trunktech/chassis_can-release.git
+      version: 0.0.2-0
   ingredient:
     source:
       type: git

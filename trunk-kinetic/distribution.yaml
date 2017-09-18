@@ -27,10 +27,10 @@ repositories:
       url: git@github.com:trunktech/oxts-release.git
       version: 0.0.3-0
     status: maintained
-  png_msgs:
+  pnc_msgs:
     source:
       type: git
-      url: git@github.com:trunktech/png_msgs.git
+      url: git@github.com:trunktech/pnc_msgs.git
       version: master
     status: maintained
   velodyne:

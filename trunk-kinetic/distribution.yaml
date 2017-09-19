@@ -68,6 +68,19 @@ repositories:
       url: git@github.com:trunktech/pnc_msgs-release.git
       version: 0.0.1-0
     status: maintained
+  time_conversions:
+    source:
+      type: git
+      url: git@github.com:trunktech/time_conversions.git
+      version: master
+    release:
+      packages:
+      - time_conversions 
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@github.com:trunktech/time_conversions-release.git
+      version: 0.0.1-0
+    status: maintained
   velodyne:
     release:
       packages:

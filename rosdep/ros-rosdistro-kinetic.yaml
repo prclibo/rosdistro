@@ -2634,3 +2634,7 @@ zeroconf_jmdns_suite: {debian: ros-kinetic-zeroconf-jmdns-suite, fedora: ros-kin
   ubuntu: ros-kinetic-zeroconf-jmdns-suite}
 zeroconf_msgs: {debian: ros-kinetic-zeroconf-msgs, fedora: ros-kinetic-zeroconf-msgs,
   ubuntu: ros-kinetic-zeroconf-msgs}
+
+# Temporally fixed rosdep
+python-pcapy: { ubuntu: python-pcapy }
+python-impacket: { ubuntu: python-impacket }

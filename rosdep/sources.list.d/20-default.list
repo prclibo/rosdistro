@@ -1,3 +1,5 @@
+yaml https://raw.githubusercontent.com/prclibo/rosdistro/master/rosdep/ros-rosdistro-kinetic.yaml
+
 # os-specific listings first
 yaml https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/osx-homebrew.yaml osx
 
@@ -8,4 +10,3 @@ yaml https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/ruby.yaml
 gbpdistro https://raw.githubusercontent.com/ros/rosdistro/master/releases/fuerte.yaml fuerte
 
 # newer distributions (Groovy, Hydro, ...) must not be listed anymore, they are being fetched from the rosdistro index.yaml instead
-yaml https://raw.githubusercontent.com/prclibo/rosdistro/master/rosdep/ros-rosdistro-kinetic.yaml

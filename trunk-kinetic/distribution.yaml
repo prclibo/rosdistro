@@ -21,6 +21,13 @@ repositories:
       version: master
     status: maintained
   ingredient:
+    release:
+      packages:
+      - ingredient
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@github.com:trunktech/ingredient-release.git
+      version: 0.0.1-0
     source:
       type: git
       url: git@github.com:trunktech/ingredient.git

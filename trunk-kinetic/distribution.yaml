@@ -36,8 +36,8 @@ repositories:
   novatel_span_driver:
     release:
       packages:
-      - novatel_span_driver
       - novatel_msgs
+      - novatel_span_driver
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/prclibo/novatel_span_driver-release.git
@@ -98,9 +98,8 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/prclibo/velodyne-release.git
-      version: 101.2.0-0
+      version: 101.2.1-0
     source:
-      test_pull_requests: true
       type: git
       url: https://github.com/prclibo/velodyne.git
       version: trunk

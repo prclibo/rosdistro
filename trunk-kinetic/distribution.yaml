@@ -20,6 +20,19 @@ repositories:
       url: git@github.com:trunktech/chassis_can.git
       version: master
     status: maintained
+  grid_fusion:
+    release:
+      packages:
+      - grid_fusion 
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@github.com:trunktech/grid_fusion-release.git
+      version: 0.0.0-0
+    source:
+      type: git
+      url: git@github.com:trunktech/grid_fusion.git
+      version: master
+    status: maintained
   ingredient:
     release:
       packages:
@@ -41,7 +54,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/prclibo/novatel_span_driver-release.git
-      version: 101.0.1-0
+      version: 101.0.2-0
     source:
       type: git
       url: https://github.com/prclibo/novatel_span_driver.git
@@ -93,8 +106,8 @@ repositories:
       packages:
       - velodyne
       - velodyne_driver
-      - velodyne_pointcloud
       - velodyne_msgs
+      - velodyne_pointcloud
       tags:
         release: release/kinetic/{package}/{version}
       url: https://github.com/prclibo/velodyne-release.git

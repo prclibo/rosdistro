@@ -27,7 +27,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@github.com:trunktech/grid_fusion-release.git
-      version: 0.0.2-0
+      version: 0.0.3-0
     source:
       type: git
       url: git@github.com:trunktech/grid_fusion.git
@@ -76,10 +76,6 @@ repositories:
       version: 0.0.3-0
     status: maintained
   pnc_msgs:
-    source:
-      type: git
-      url: git@github.com:trunktech/pnc_msgs.git
-      version: master
     release:
       packages:
       - pnc_msgs
@@ -87,12 +83,12 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: git@github.com:trunktech/pnc_msgs-release.git
       version: 0.0.2-0
-    status: maintained
-  time_conversions:
     source:
       type: git
-      url: git@github.com:trunktech/time_conversions.git
+      url: git@github.com:trunktech/pnc_msgs.git
       version: master
+    status: maintained
+  time_conversions:
     release:
       packages:
       - time_conversions 
@@ -100,6 +96,10 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: git@github.com:trunktech/time_conversions-release.git
       version: 0.0.2-0
+    source:
+      type: git
+      url: git@github.com:trunktech/time_conversions.git
+      version: master
     status: maintained
   velodyne:
     release:

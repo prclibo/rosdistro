@@ -35,8 +35,6 @@ repositories:
     status: maintained
   ingredient:
     release:
-      packages:
-      - ingredient
       tags:
         release: release/kinetic/{package}/{version}
       url: git@github.com:trunktech/ingredient-release.git
@@ -53,11 +51,11 @@ repositories:
       - novatel_span_driver
       tags:
         release: release/kinetic/{package}/{version}
-      url: https://github.com/prclibo/novatel_span_driver-release.git
+      url: git@github.com:prclibo/novatel_span_driver-release.git
       version: 101.0.2-0
     source:
       type: git
-      url: https://github.com/prclibo/novatel_span_driver.git
+      url: git@github.com:prclibo/novatel_span_driver.git
       version: trunk
     status: maintained
   oxts:
@@ -69,7 +67,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@github.com:trunktech/oxts-release.git
-      version: 0.0.3-0
+      version: 0.0.3-1
     source:
       type: git
       url: git@github.com:trunktech/oxts.git
@@ -77,8 +75,6 @@ repositories:
     status: maintained
   pnc_msgs:
     release:
-      packages:
-      - pnc_msgs
       tags:
         release: release/kinetic/{package}/{version}
       url: git@github.com:trunktech/pnc_msgs-release.git
@@ -90,8 +86,6 @@ repositories:
     status: maintained
   time_conversions:
     release:
-      packages:
-      - time_conversions 
       tags:
         release: release/kinetic/{package}/{version}
       url: git@github.com:trunktech/time_conversions-release.git
@@ -117,6 +111,6 @@ repositories:
       url: https://github.com/prclibo/velodyne.git
       version: trunk
     status: maintained
+tags: [trunk-kinetic]
 type: distribution
 version: 2
-tags: [trunk-kinetic]

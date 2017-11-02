@@ -67,7 +67,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: git@github.com:trunktech/oxts-release.git
-      version: 0.0.3-2
+      version: 0.0.5
     source:
       type: git
       url: git@github.com:trunktech/oxts.git

@@ -84,6 +84,17 @@ repositories:
       url: git@github.com:trunktech/pnc_msgs.git
       version: master
     status: maintained
+  renqe:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@github.com:trunktech/renqe-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: git@github.com:trunktech/renqe.git
+      version: master
+    status: maintained
   time_conversions:
     release:
       tags:
